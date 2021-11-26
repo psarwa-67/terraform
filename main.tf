@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "push" {
-	ami = "ami-026f33d38b6410e30"
+	ami = "ami-045a4feb43be3fd32"
 	instance_type = "t2.micro"
 	tags = {
 		Name = "terrapush"
