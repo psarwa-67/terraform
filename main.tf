@@ -7,6 +7,6 @@ resource "aws_instance" "push" {
 	instance_type = "t2.micro"
 	tags = {
 		Name = "terrapush"
-		Env = Terra"
+		Env = "Terra"
 	}
 }
